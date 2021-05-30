@@ -13,4 +13,4 @@ The training data is randomly chosen 4,213 (70%) instances. The test data is the
 
 
 ## Deployment on Heroku
-The price prediction model has been developed using Random Forest Regressor with Randomized CV and deployed in heroku cloud platform, visit at https://pre-owned-car-price-prediction.herokuapp.com/
+The price prediction model has been developed using Random Forest Regressor with Randomized CV and deployed in heroku cloud platform, visit at https://preowned-carprice-prediction.herokuapp.com/
