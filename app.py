@@ -60,9 +60,9 @@ def predict():
         
         # Displaying the output dependino upon the predictions
         if (output < 0):
-            return render_template('index.html', prediction_text = "Sorry you cannot sell this car.")
+            return render_template('output.html', prediction_text = "Sorry you cannot sell this car.")
         else:
-            return render_template('index.html', prediction_text = f"You can sell this car for Rs. {output} Lakhs.")
+            return render_template('output.html', prediction_text = f"You can sell this car for Rs. {output} Lakhs.")
     else:
         return render_template('index.html')
 
